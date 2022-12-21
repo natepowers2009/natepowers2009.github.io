@@ -6,7 +6,7 @@ If there is any requests for ideas as to what I should add to this webstie, cont
 Thank you for using my website!
 */
 
-var test_val = math.random()
+var test_val = .random(1000)
 
 if (test_val < 1000) {
   console.log('Less Than Val')
@@ -17,3 +17,7 @@ if (test_val < 1000) {
 }else{
   console.log('ERROR')
 }
+
+
+document.cookie = "save = test_val"
+console.log(`The value of test_val is ${test_val}.` + 'It is not, however, equivalent to ' + test_val - .random(100));
