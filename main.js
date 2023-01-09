@@ -1,4 +1,1 @@
-function counter() {if (typeof counter === 'undefined') {var counter = 1; console.log(counter);}else if (typeof counter === 'number') {counter = ++counter; console.log(counter);} return counter};
-var counter = 0
-counter()
-if (typeof counter === 'undefined') {console.error('Function Error')}else{console.log('function success')}
+funtion ytvidwatcher() {let a = 'https://youtube.com/embed/'+prompt('paste yt video ID (string at video url end)'); document.write(`<iframe width="921" height="518" src="${a}" title="Youtube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><a href="https://natepowers2009.github.io/"><img src="https://natepowers2009.github.io/img/BCKIcon.svg"></a><style>body {background-color: 000;}</style>`);}
